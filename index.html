@@ -33,8 +33,16 @@
     <meta name="twitter:image:alt" content="Karma Monitor: Ethos karma leaderboard and WHUF rewards" />
     <meta name="twitter:creator" content="@0xKharon" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <script type="module" crossorigin src="./assets/index-BWfPPZqV.js"></script>
+
+    <!-- Installable web app: the manifest, the service worker and the icons are added by pwa/plugin.js at build time -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Karma Monitor" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <script type="module" crossorigin src="./assets/index-CnpJrlnc.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-CY78fz37.css">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
   </head>
   <body>
     <div id="root"></div>
